@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 225, 173);
+    color:rgb(26, 92, 56);
+}
+
+h1, h2 {
+    font-family: 'idroid';
+    font-size: 32px;
+}
+
+#titulohead{
+    font-family: 'Phudu', Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(132, 225, 173);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.700), rgb(132, 225, 173));
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+    margin: -8px -8px 0px -8px;
+}
+
+header > h1 {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+header > p {
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    padding-bottom: 25px;
+}
+
+nav > a{
+    padding: 10px;
+}
+
+.navlinks {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(90, 153, 117);
+}
+
+div#folha {
+    background-color: white;
+    width: 1200px;
+    margin: -26px auto 25px auto;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo {
+    padding: 5px 20px 5px 20px;
+    text-align: justify;
+}
+
+h1#titulo {
+    padding: 20px 20px 5px 20px;
+}
+
+h2.subtitulo {
+
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 10px 20px; /* keep the table centered */
+    padding: 5px;
+    font-size:20px;
+    background: linear-gradient(to right, rgba(132, 225, 172, 0.5), white);
+}
+
+.picture-g {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.picture-s {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.videobg{
+    display: block;
+    padding: 50px 50px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(26, 92, 56);
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h3#listtitle{
+    display: block;
+    padding: 5px 20px 5px 20px;
+    text-align: left;
+    background-color: rgb(87, 118, 87);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+.listblock{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    background-color: rgb(132, 225, 173);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.contlist{
+    padding: 5px 20px 5px 20px;
+    text-align: justify;
+}
+
+#list1{
+    padding: 1px 1px 165px 1px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    height: 50%;
+    float: inline-start;
+}
+
+#box1 {
+    background:rgb(132, 225, 173);
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#box2 {
+    background:rgb(132, 225, 173);
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+li {
+    margin-left: 5%;
+}
+
+.linklist {
+    color: black;
+}
+
+footer {
+    background-color: rgb(26, 92, 56);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: -8px -8px -8px -8px;
+}
